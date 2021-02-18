@@ -1,0 +1,28 @@
+{
+  "name": "brilliant",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "a useful javascript tools lib",
+  "private": true,
+  "author": "hitris",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.5.0"
+  },
+  "scripts": {
+    "style": "eslint *.js .internal/**/*.js",
+    "test": "mocha -r esm test/*.test.js",
+    "validate": "npm run style && npm run test"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "eslint": "^7.16.0",
+    "eslint-plugin-import": "^2.22.1",
+    "lodash": "4.17.20",
+    "esm": "^3.2.25"
+  },
+  "bugs": {
+    "url": "https://github.com/hitris/brilliant/issues"
+  },
+  "homepage": "https://github.com/hitris/brilliant#readme"
+}
